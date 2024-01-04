@@ -1,0 +1,5 @@
+ErrorDocument 404 /
+RewriteEngine On
+RewriteBase /
+RewriteRule ^queryScore.do/?$ index.html [NC,L] 
+RewriteRule ^(ru|ua)$ index.$1.html [NC,L]
